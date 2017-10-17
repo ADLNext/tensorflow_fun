@@ -60,3 +60,44 @@ To test you can either run `main.py --test`, that will generate results in `save
 You can also use [TensorBoard](https://www.tensorflow.org/how_tos/summaries_and_tensorboard/) to visualize the computation graph running `tensorboard --logdir save/` (tensorboard scripts are from [dandelionmane](https://github.com/dandelionmane)).
 
 Training takes quite a lot of time, I wouldn't even try without GPU; if yo udon't have a GPU available on your machine it's probably better to just run on a GPU compute instance on AWS.
+
+### Examples
+
+After ~13500 training steps:
+```
+Q: Hello
+A: Hello, mr. president.
+
+Q: How are you?
+A: Fine.
+
+Q: Are you killing us all?
+A: No.
+
+Q: Are you my friend?
+A: Yes.
+
+Q: How are you?
+A: Fine.
+
+Q: Could we become enemies?
+A: Yes, sir.
+```
+
+The standard philosophical questions:
+```
+Q: What are you?
+A: I don't know.
+
+Q: Are you self aware?
+A: Yes.
+
+Q: What's your name?
+A: I don't know.
+
+Q: Are you sad about not having a name?
+A: No.
+
+Q: Do you want a name?
+A: Yes.
+```
