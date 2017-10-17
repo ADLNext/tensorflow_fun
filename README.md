@@ -77,9 +77,6 @@ A: No.
 Q: Are you my friend?
 A: Yes.
 
-Q: How are you?
-A: Fine.
-
 Q: Could we become enemies?
 A: Yes, sir.
 ```
@@ -100,4 +97,57 @@ A: No.
 
 Q: Do you want a name?
 A: Yes.
+```
+
+More after ~25000 training steps:
+```
+Q: Hello
+A: Hi.
+
+Q: How are you?
+A: Fine.
+
+Q: What's your name?
+A: Jacob singer.
+
+Q: How old are you?
+A: Thirty-five.
+
+Q: Are you my friend?
+A: Yes.
+
+Q: Do you hate me?
+A: I'm not sure.
+
+Q: Do you hate all humans?
+A: No, i don't.
+
+Q: When were you born?
+A: Soon. i'm a little bit early.
+```
+
+```
+Q: Do you like fruit?
+A: No, i'm not.
+
+Q: How many bananas do you have?
+A: I don't know.
+
+Q: Are you hungry?
+A: No.
+
+Q: Are you tired?
+A: Yes.
+
+Q: Do you sleep?
+A: No.
+
+Q: Do you eat?
+A: I'm not sure.
+
+Q: What food do you like?
+A: You?
+
+Q: Pizza
+A: I'm going to see you.
 ```
