@@ -122,8 +122,8 @@ class Worker(object):
             rnn_state = SESS.run(self.AC.init_state)  # zero rnn state at beginning
             keep_state = rnn_state.copy()  # keep rnn state for updating global net
             while True:
-                # if self.name == 'W_0' and total_step % 10 == 0:
-                #     self.env.render()
+                if self.name == 'W_0' and total_step % 10 == 0:
+                    self.env.render()
                 a, rnn_state_ = self.AC.choose_action(s, rnn_state)  # get the action and next rnn state
                 s_, r, done, info = self.env.step(a)
                 if r == -100: r = -10

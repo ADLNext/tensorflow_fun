@@ -15,7 +15,7 @@ REPLACE_ITER_A = 1700
 REPLACE_ITER_C = 1500
 MEMORY_CAPACITY = 200000
 BATCH_SIZE = 32
-DISPLAY_THRESHOLD = 100  # display until the running reward > 100
+DISPLAY_THRESHOLD = 20  # display until the running reward > threshold
 DATA_PATH = './data'
 LOAD_MODEL = False
 SAVE_MODEL_ITER = 100000
@@ -371,7 +371,12 @@ for i_episode in range(MAX_EPISODES):
             else:
                 running_r = 0.95*running_r + 0.05*ep_r
             if running_r > DISPLAY_THRESHOLD: RENDER = True
-            else: RENDER = False
+            else:
+                # show some fails from time to time
+                if np.random.uniform() <= .1:
+                    RENDER = True
+                else:
+                    RENDER = False
 
             done = '| Achieve ' if env.unwrapped.hull.position[0] >= END_POINT else '| -----'
             print('Episode:', i_episode,
