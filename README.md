@@ -18,3 +18,7 @@ A TF implementation of the model proposed by Google in [this paper](http://arxiv
 ## Deep Reinforcement Learning
 
 A folder containing a few examples of Reinforcement Learning.
+
+## DCGAN
+
+Deep Convolutional Generative Adversarial Network to generate new images from a dataset of pictures.
