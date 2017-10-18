@@ -4,8 +4,6 @@ Tensorflow implementation of [Deep Convolutional Generative Adversarial Networks
 
 Inspired by [this torch implementation](https://github.com/soumith/dcgan.torch).
 
-* [Brandon Amos](http://bamos.github.io/) wrote an excellent [blog post](http://bamos.github.io/2016/08/09/deep-completion/) and [image completion code](https://github.com/bamos/dcgan-completion.tensorflow) based on this repo.
-
 ## Usage
 
 First, download dataset with:
