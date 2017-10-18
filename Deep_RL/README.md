@@ -26,6 +26,13 @@ The environment is composed by a robot arm and a blue box that the arm has to re
 
 The DPPO updating rule is from Google DeepMind (http://adsabs.harvard.edu/abs/2017arXiv170702286H)
 
+## Walker
+
+A bipedal walker learning to... well, walk.
+
+- Asynchronous Advantage Actor Critic (Recurrent as well)
+- Deep Deterministic Policy Gradient
+
 ## Acknowledgements
 
 Once again, these examples are mostly taken from around the web, I am afraid I have lost track of all the resources I should link to you so here is a messy collection of resources on RL:

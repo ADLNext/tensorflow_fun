@@ -14,3 +14,7 @@ Each experiment should have its own folder with a README if necessary.
 ## Deep QA
 
 A TF implementation of the model proposed by Google in [this paper](http://arxiv.org/abs/1506.05869) for a conversational chatbot; this is the same architecture that lies behind the Google Assistant, except Google is using custom word embeddings and some other subtle tricks (that they are not sharing for obvious reasons).
+
+## Deep Reinforcement Learning
+
+A folder containing a few examples of Reinforcement Learning.

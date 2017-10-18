@@ -1,15 +1,3 @@
-"""
-Asynchronous Advantage Actor Critic (A3C), Reinforcement Learning.
-
-The BipedalWalker example.
-
-View more on [莫烦Python] : https://morvanzhou.github.io/tutorials/
-
-Using:
-tensorflow 1.0
-gym 0.8.0
-"""
-
 import multiprocessing
 import threading
 import tensorflow as tf
@@ -205,5 +193,3 @@ if __name__ == "__main__":
         t.start()
         worker_threads.append(t)
     COORD.join(worker_threads)
-
-
