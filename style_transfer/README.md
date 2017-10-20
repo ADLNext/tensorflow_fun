@@ -33,23 +33,17 @@ The implementation is based on the projects:
 
 ## Results
 
-Original picture (from out social event):
+####Original picture (from out social event):
 
 ![alt text](regata.jpg)
 
-Results:
+####Results:
 
-Painting:
 ![alt text](images/seated-nude.jpg)
-Result:
 ![alt text](results/regata.jpg_seated-nude.jpg)
-
-Painting:
+---
 ![alt text](images/starry-night.jpg)
-Result:
 ![alt text](results/regata.jpg_starry-night.jpg)
-
-Painting:
+---
 ![alt text](images/the_scream.jpg)
-Result:
 ![alt text](results/regata.jpg_the_scream.jpg)
