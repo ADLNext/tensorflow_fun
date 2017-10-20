@@ -33,11 +33,11 @@ The implementation is based on the projects:
 
 ## Results
 
-####Original picture (from out social event):
+#### Original picture (from out social event):
 
 ![alt text](regata.jpg)
 
-####Results:
+#### Results:
 
 ![alt text](images/seated-nude.jpg)
 ![alt text](results/regata.jpg_seated-nude.jpg)
