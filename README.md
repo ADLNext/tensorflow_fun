@@ -22,3 +22,7 @@ A folder containing a few examples of Reinforcement Learning.
 ## DCGAN
 
 Deep Convolutional Generative Adversarial Network to generate new images from a dataset of pictures.
+
+## Style Transfer Network
+
+Deep Convolutional Style Transfer Network; the network transfers the style from one picture to another pictures; some results obtained using paintings are presented.
