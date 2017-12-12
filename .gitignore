@@ -9,7 +9,10 @@ checkpoint/
 samples/
 style_transfer/pre_trained_model/*
 style_transfer/results/*.jpg
+style_transfer/results/gimp/
+deep_dream/*.png  
 *.jpg
+*.jpeg
 !style_transfer/results/regata*
 !style_transfer/regata.jpg
 !style_transfer/images/*.jpg
